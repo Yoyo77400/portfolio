@@ -35,15 +35,15 @@ const socials = [
 
 export function Contact() {
   return (
-    <section id="contact" className="relative py-32 px-6">
+    <section id="contact" className="relative py-20 px-6">
       {/* Section glow */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-125 h-75 bg-[radial-gradient(ellipse,_#f59e0b0a,_transparent_70%)] pointer-events-none" />
 
-      <div className="section-divider mb-32" />
+      <div className="section-divider mb-16" />
 
-      <div className="mx-auto max-w-4xl text-center p-10">
+      <div className="mx-auto max-w-4xl text-center px-10 pb-10">
         <ScrollReveal>
-          <SectionHeading title="Travaillons ensemble" className="text-center" />
+          <SectionHeading title="Travaillons ensemble" centered />
 
           <p className="max-w-xl mx-auto text-lg text-text-secondary leading-relaxed">
             Que ce soit pour un projet blockchain, une collaboration technique, ou

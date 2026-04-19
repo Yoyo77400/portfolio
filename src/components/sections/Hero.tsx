@@ -43,7 +43,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.25 }}
           className="font-display font-bold leading-none tracking-tight text-center"
-          style={{ fontSize: "clamp(5rem, 16vw, 13rem)" }}
+          style={{ fontSize: "clamp(2.5rem, 18vw, 13rem)" }}
         >
           <span
             style={{
@@ -77,11 +77,11 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.65 }}
             className="flex-1 flex flex-col items-center md:items-start text-center md:text-left"
           >
-            <p className="font-mono text-lg sm:text-xl tracking-wider">
+            <p className="font-mono text-base sm:text-xl tracking-wider flex flex-wrap justify-center md:justify-start gap-x-1">
               <span className="text-forge-orange">Blockchain</span>
-              <span className="text-white/25 mx-3">/</span>
+              <span className="text-white/25 mx-2">/</span>
               <span className="text-white/80">Architect</span>
-              <span className="text-white/25 mx-3">&</span>
+              <span className="text-white/25 mx-2">&</span>
               <span className="text-forge-blue">Builder</span>
             </p>
 

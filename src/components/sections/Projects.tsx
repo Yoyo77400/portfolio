@@ -36,7 +36,7 @@ export function Projects() {
         {featured.length > 0 && (
           <>
             <ScrollReveal>
-              <h3 className="mb-8 font-mono text-sm text-text-muted tracking-widest uppercase">
+              <h3 className="mb-8 font-mono text-sm text-text-muted tracking-wide uppercase text-center md:text-left">
                 Projets online
               </h3>
             </ScrollReveal>
@@ -121,7 +121,7 @@ export function Projects() {
         {/* Academic projects */}
         {others.length > 0 && (
           <ScrollReveal delay={0.2}>
-            <h3 className="mb-8 font-mono text-sm text-text-muted tracking-widest uppercase">
+            <h3 className="mb-8 font-mono text-sm text-text-muted tracking-wide uppercase text-center md:text-left">
               Projets académiques
             </h3>
             <div className="grid gap-4 md:grid-cols-2">

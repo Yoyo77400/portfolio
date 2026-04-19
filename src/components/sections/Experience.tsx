@@ -92,7 +92,7 @@ export function Experience() {
         {/* ── Expériences professionnelles & académiques ── */}
         <div className="mb-16">
           <ScrollReveal>
-            <p className="font-mono text-xs text-forge-blue tracking-widest uppercase mb-8">
+            <p className="font-mono text-xs text-forge-blue tracking-wide uppercase mb-8 text-center md:text-left">
               — Professionnel & Académique
             </p>
           </ScrollReveal>
@@ -115,7 +115,7 @@ export function Experience() {
         {/* ── Expériences associatives ── */}
         <div>
           <ScrollReveal>
-            <p className="font-mono text-xs text-forge-orange tracking-widest uppercase mb-8">
+            <p className="font-mono text-xs text-forge-orange tracking-wide uppercase mb-8 text-center md:text-left">
               — Associatif
             </p>
           </ScrollReveal>
