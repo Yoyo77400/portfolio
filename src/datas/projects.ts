@@ -12,6 +12,16 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "kryptosphere-academy",
+    title: "KRYPTOSPHERE® Academy",
+    description:
+      "Des formations en ligne, conçues avec les partenaires de Kryptosphere. Vous suivez les modules, vous passez le quiz, vous obtenez un certificat vérifiable — y compris sur LinkedIn.",
+    stack: ["NextJS", "TypeScript", "Node.js", "PostgreSQL", "TailwindCSS", "Vercel", "Neon", "Architecture", "Git"],
+    category: "fullstack",
+    live: "https://academy.kryptosphere.org",
+    featured: true,
+  },
+  {
     id: "the-12th-door",
     title: "The 12th Door",
     description:
